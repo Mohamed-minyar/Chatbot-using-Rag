@@ -6,14 +6,25 @@
 
 This makes the system **context-aware + emotion-aware** for more human-like interactions.  
 
----
+**A NEW FEATURE
+🎙️ RAG + Emotion Chatbot (Text & Voice)
 
-## 🚀 Features
-- ✅ Emotion classification using **BERT / DistilBERT**  
-- ✅ Semantic search with **Sentence Transformers + FAISS**  
-- ✅ Answer generation with **GPT-2**  
-- ✅ Support for **custom JSON datasets**  
-- ✅ Deployable with **Streamlit** (UI) or **FastAPI** (API service)  
+A conversational assistant that combines Retrieval-Augmented Generation (RAG), BERT emotion classification, and GPT-2 generation with speech-to-text (STT) and text-to-speech (TTS).
+Speak or type a message → the bot detects your emotion, retrieves context documents, generates an answer, and reads it aloud.
+
+🚀 Features
+
+Emotion Detection – BERT model classifies user sentiment.
+
+Retrieval-Augmented Generation – finds relevant info from your knowledge base using embeddings + FAISS.
+
+Text Generation – GPT-2 crafts responses using retrieved docs & your emotional state.
+
+Speech-to-Text – powered by Wav2Vec2 for voice input.
+
+Text-to-Speech – gTTS speaks answers aloud.
+
+Streamlit UI – switch between typing and talking.
 
 # 🎭 RAG-Emotion: Retrieval-Augmented Generation for Emotion-Aware Responses
 
