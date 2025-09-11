@@ -40,7 +40,9 @@ Streamlit UI – switch between typing and talking.
 - 🧠 DistilBERT (Classification)  
 - ✍️ GPT-2 (Generation)  
 - 🔎 FAISS (Efficient similarity search)  
-- 🎨 Streamlit / FastAPI (Deployment)  
+- 🎨 Streamlit / FastAPI (Deployment)
+- 🎤 Speech-to-Text (STT)
+- 🔊 Text-to-Speech (TTS)  
 
 ---
 
